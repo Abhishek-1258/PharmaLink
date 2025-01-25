@@ -15,7 +15,7 @@ import java.util.Map;
 public class JwtAuthenticationHelper {
 
 	
-	private String secret = "thisisacodingninjasdemonstrationforsecretkeyinspringsecurityjsonwebtokenauthentication";
+	private String secret = "";
 	private static final long JWT_TOKEN_VALIDITY = 60*60;
 	
 	public String getUsernameFromToken(String token)
